@@ -3,12 +3,12 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
   // TODO READMEの手順で作成した情報をコピペしてください。
-  apiKey: "AIzaSyCMMc2p8hIEfOp-PfXpDzPj3UO5yMD9QwM",
-  authDomain: "sample-project-9692c.firebaseapp.com",
-  projectId: "sample-project-9692c",
-  storageBucket: "sample-project-9692c.appspot.com",
-  messagingSenderId: "327979171710",
-  appId: "1:327979171710:web:7e6e9adf67b4c28dcd7d2f"
+  apiKey: "your api key",
+  authDomain: "your auth domain",
+  projectId: "your project id",
+  storageBucket: "your strage bucket",
+  messagingSenderId: "your messaging sender id",
+  appId: "your app id"
 };
 
 const app = initializeApp(firebaseConfig);
